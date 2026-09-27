@@ -1,9 +1,8 @@
-# SMART-SURJAN
-
-# SMART-SURJAN
+## 🌾 SMART-SURJAN
 ### Solusi Modernisasi Adaptif Sistem Surjan Menggunakan Integrasi Pengetahuan Lokal dan Monitoring Air Digital
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/badge/Website-Live-green)](https://smart-surjan-landing-ky8j.bolt.host)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-prototype-blue)]()
 
 ---
@@ -13,6 +12,8 @@
 SMART-SURJAN adalah model modernisasi adaptif untuk sistem pertanian surjan di lahan basah Indonesia. Proyek ini menggabungkan **pengetahuan lokal** (termasuk Pranata Mangsa) dengan **teknologi monitoring air digital** sederhana untuk meningkatkan ketahanan pangan menghadapi perubahan iklim.
 
 > "Berakar pada Tradisi, Berinovasi untuk Masa Depan"
+
+**🌐 Live Demo:** [https://smart-surjan-landing-ky8j.bolt.host](https://smart-surjan-landing-ky8j.bolt.host)
 
 ---
 
@@ -25,63 +26,39 @@ SMART-SURJAN adalah model modernisasi adaptif untuk sistem pertanian surjan di l
 
 ---
 
+## ✨ Fitur Utama
+
+| Fitur | Deskripsi |
+|-------|-----------|
+| 💧 **Monitoring Air Real-Time** | Sensor IoT memantau tinggi air sawah 24/7, data dikirim setiap 5 menit |
+| 🗓️ **Integrasi Pranata Mangsa** | Jadwal tanam dan irigasi sesuai kalender tradisional Jawa |
+| 📱 **Akses Mobile** | Petani memantau sawah dari smartphone kapan saja |
+| 📊 **Analisis Data** | Visualisasi grafik tren ketinggian air, curah hujan, pola tanam |
+| 🔔 **Notifikasi Otomatis** | Peringatan dini ketika air terlalu rendah atau tinggi |
+| ⚡ **Irigasi Hemat Energi** | Otomatisasi pompa menghemat listrik dan air hingga 40% |
+
+---
+
+## 📱 Purwarupa Antarmuka
+
+### Landing Page
+![Landing Page SMART-SURJAN](images/landing-page.png)
+
+### Aplikasi Mobile
+| Dashboard Utama | Pranata Mangsa | Analisis & Riwayat |
+|:---:|:---:|:---:|
+| ![Dashboard](images/mockup-dashboard.png) | ![Pranata Mangsa](images/mockup-pranata-mangsa.png) | ![Analisis](images/mockup-analisis.png) |
+| Monitoring real-time | Kalender tanam Jawa | Grafik tren 7 hari |
+
+### Kontrol Pintu Air
+<div align="center">
+  <img src="images/mockup-water-control.png" alt="Kontrol Pintu Air" width="300">
+  <p><em>Mode otomatis dan manual untuk menjaga kendali petani</em></p>
+</div>
+
+---
+
 ## 🏗️ Arsitektur Sistem
-
-
-
-**Komponen:**
-- **Sensor:** Ultrasonik (ketinggian air) + Konduktivitas (salinitas)
-- **Koneksi:** LoRa / WiFi
-- **Server:** Cloud-based (Firebase / AWS)
-- **Antarmuka:** Aplikasi mobile + SMS/WhatsApp
-
----
-
-https://smart-surjan-landing-ky8j.bolt.host
-testing website  overview 
-
----
-
-## 📂 Struktur Repositori
-
-- `/docs` — Dokumentasi, proposal, dan visual
-- `/hardware` — Spesifikasi sensor dan diagram wiring
-- `/software` — Kode aplikasi, backend, dan firmware
-- `/research` — Referensi dan catatan lapangan
-
----
-
-## 🚀 Cara Berkontribusi
-
-Kami terbuka untuk kolaborasi! Lihat [CONTRIBUTING.md](CONTRIBUTING.md) untuk panduan.
-
-1. Fork repositori ini
-2. Buat branch fitur (`git checkout -b fitur/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Menambah fitur AmazingFeature'`)
-4. Push ke branch (`git push origin fitur/AmazingFeature`)
-5. Buat Pull Request
-
----
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah MIT License — lihat [LICENSE](LICENSE) untuk detail.
-
----
-
-## 📧 Kontak
-
-**Penulis:** Pujolaras Anto  
-**Institusi:** Universitas Bina Nusantara (BINUS), Kampus Malang  
-**Email:** [email Anda]
-
----
-
-## 🙏 Ucapan Terima Kasih
-
-- Tay Juhana Foundation — untuk data lahan basah dan inspirasi kompetisi
-- FAO — untuk kerangka integrasi pengetahuan lokal dan teknologi
-- Petani surjan di Pantura Jawa — untuk kearifan lokal yang tak ternilai
 
 ---
 
