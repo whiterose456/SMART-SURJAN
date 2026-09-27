@@ -37,12 +37,8 @@ SMART-SURJAN adalah model modernisasi adaptif untuk sistem pertanian surjan di l
 
 ---
 
-## 📱 Purwarupa Antarmuka
-
-| Dasbor Utama | Jadwal Pasang Surut | Riwayat Data |
-|--------------|---------------------|--------------|
-| ![Dashboard](![Uploading image.png…]()
-) | ![Schedule](docs/images/mockup-schedule.png) | ![History](docs/images/mockup-history.png) |
+https://smart-surjan-landing-ky8j.bolt.host
+testing website  overview 
 
 ---
 
