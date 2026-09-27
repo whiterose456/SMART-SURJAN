@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART-SURJAN - Solusi Modernisasi Adaptif Sistem Surjan</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1a5276, #2e86c1);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header p { font-size: 1.2em; opacity: 0.9; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .section { margin-bottom: 60px; }
+        .section h2 {
+            color: #1a5276;
+            border-bottom: 3px solid #2e86c1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            border-left: 4px solid #2e86c1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .feature-card h3 { color: #1a5276; margin-bottom: 10px; }
+        .mockup {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .mockup img {
+            max-width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin: 10px;
+        }
+        footer {
+            background: #1a5276;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: #2e86c1;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover { background: #1a5276; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌾 SMART-SURJAN</h1>
+    <p>Solusi Modernisasi Adaptif Sistem Surjan untuk Ketahanan Pangan Indonesia</p>
+    <a href="https://github.com/[username]/SMART-SURJAN" class="btn">Lihat di GitHub</a>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>📖 Tentang Proyek</h2>
+        <p>SMART-SURJAN adalah model modernisasi adaptif untuk sistem pertanian surjan di lahan basah Indonesia. Proyek ini menggabungkan <strong>pengetahuan lokal</strong> (termasuk Pranata Mangsa) dengan <strong>teknologi monitoring air digital</strong> sederhana untuk meningkatkan ketahanan pangan menghadapi perubahan iklim.</p>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Fitur Utama</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>💧 Monitoring Air Real-Time</h3>
+                <p>Sensor IoT mengukur ketinggian air dan salinitas secara berkala.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📱 Notifikasi SMS/WhatsApp</h3>
+                <p>Petani menerima peringatan langsung di ponsel mereka.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🗓️ Integrasi Pranata Mangsa</h3>
+                <p>Jadwal pasang surut terpadu dengan kalender tradisional Jawa.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔊 Petunjuk Suara</h3>
+                <p>Fitur audio untuk petani dengan literasi rendah.</p>
+            </div>
+            <div class="feature-card">
+                <h3>👥 Keputusan Musyawarah</h3>
+                <p>Tetap berbasis kelompok tani, bukan otomatis sepenuhnya.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🌱 Diversifikasi Tanaman</h3>
+                <p>Rekomendasi komoditas sesuai kondisi air dan salinitas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📱 Purwarupa Antarmuka</h2>
+        <div class="mockup">
+            <img src="images/mockup-dashboard.png" alt="Dasbor Utama">
+            <img src="images/mockup-schedule.png" alt="Jadwal Pasang Surut">
+            <img src="images/mockup-history.png" alt="Riwayat Data">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🏗️ Arsitektur Sistem</h2>
+        <p><strong>Sensor (IoT)</strong> → <strong>Server (Cloud)</strong> → <strong>Petani (Mobile)</strong></p>
+        <ul>
+            <li><strong>Sensor:</strong> Ultrasonik (ketinggian air) + Konduktivitas (salinitas)</li>
+            <li><strong>Koneksi:</strong> LoRa / WiFi</li>
+            <li><strong>Server:</strong> Cloud-based (Firebase / AWS)</li>
+            <li><strong>Antarmuka:</strong> Aplikasi mobile + SMS/WhatsApp</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Pujolaras Anto — Universitas Bina Nusantara (BINUS), Kampus Malang</p>
+    <p>Dikembangkan untuk Lomba Esai Pemuda 2026 — Tay Juhana Foundation</p>
+</footer>
+
+</body>
+</html>
