@@ -41,7 +41,8 @@ SMART-SURJAN adalah model modernisasi adaptif untuk sistem pertanian surjan di l
 
 | Dasbor Utama | Jadwal Pasang Surut | Riwayat Data |
 |--------------|---------------------|--------------|
-| ![Dashboard](docs/images/mockup-dashboard.png) | ![Schedule](docs/images/mockup-schedule.png) | ![History](docs/images/mockup-history.png) |
+| ![Dashboard](![Uploading image.png…]()
+) | ![Schedule](docs/images/mockup-schedule.png) | ![History](docs/images/mockup-history.png) |
 
 ---
 
